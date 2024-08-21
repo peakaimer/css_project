@@ -1,0 +1,62 @@
+p{
+    display: inline;
+}
+
+span{
+    color: green;
+    font-size: 20px;
+    display: block;
+}
+
+.nested-list{
+    background-color: blue;
+    width: fit-content;
+    padding: 10px 20px;
+    list-style-type: none;
+}
+
+.parent{
+    padding: 30px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    
+}
+
+.img1{
+    padding: 10px;
+    margin: 20px;
+    background-color: red;
+    width: fit-content;
+    height: 100px;
+}
+.img2{
+    padding: 10px;
+    margin: 20px;
+    background-color: gray;
+    width: fit-content;
+    height: 100px;
+}
+.img3{
+    padding: 10px;
+    margin: 20px;
+    background-color: gold;
+    width: fit-content;
+    height: 100px;
+}
+.img4{
+    padding: 10px;
+    margin: 20px;
+    background-color: green;
+    width: fit-content;
+    height: 100px;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+}
