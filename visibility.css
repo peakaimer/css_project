@@ -1,0 +1,70 @@
+body{
+    background-color: aqua;
+}
+.it{
+    width: 30px;
+    height: 40px;
+    border-radius: 20px;
+    visibility: hidden;
+    /* display: none; */
+    position: absolute;
+}
+
+/* *{
+    font-size: 20px;
+    color: red;
+} */
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+.div1 div{
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+}
+.div1 div p{
+    color: green;
+}
+
+
+/* CHILD SELECTOR */
+.div2{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.div2>div{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.div2>div>p{
+    color: white;
+    font-size: 20px;
+}
+
+.div2>div>div{
+    background-color: green;
+}
+
+/* ATTRIBUTE SELECTOR */
+
+P[title="mytext"]{
+    color: red;
+}
+
+input{
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+input[type="email"]{
+    background-color: green;
+}
+input[type="password"]{
+    background-color: yellow;
+}input[type="text"]{
+    background-color: red;

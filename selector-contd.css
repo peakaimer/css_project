@@ -1,0 +1,115 @@
+nav>img{
+    height: 40px;
+    width: 50px;
+    border-radius: 50%;
+}
+nav{
+    background-color: rgb(87, 87, 158);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    font-size: 20px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: red;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 0 30px;
+    color: white;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.main-div{
+    background-color: gold;
+    padding: 7px;
+    margin: 7px;
+}
+section.main-div{
+    background-color: pink;
+}
+
+
+.main-div p{
+    color: red;
+    font-size: 20px;
+
+}
+
+.main-div .my-p ~ .sib{
+    color: green;
+}
+
+.main-div+p{
+    color: blue;
+    font-size: 30px;
+}
+
+.btn{
+    color: blue;
+    padding: 10px;
+    background-color: green;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.btn:hover{
+    color: red;
+    background-color: purple;
+    padding: 30px;
+}
+
+.btn:active{
+    color: brown;
+    background-color: yellow;
+}
+
+
+
+.list{
+    background-color: yellow;
+    width: fit-content;
+    padding: 10px;
+    color: red;
+
+}
+
+.list>li{
+    background-color: purple;
+    padding: 7px 8px;
+    margin: 10px;
+}
+
+.second{
+    background-color: gray;
+    display: none;
+    position: absolute;
+    left: -5px;
+}
+
+.second>li{
+    background-color: blue;
+    padding: 10px 20px;
+    margin: 7px;
+}
+
+.me{
+    position: relative;
+}
+
+.me:hover>.second{
+    display: block;
+}
+

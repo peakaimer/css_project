@@ -15,6 +15,26 @@ span{
     list-style-type: none;
 }
 
+.second{
+    display: none;
+}
+
+.first-list{
+    padding: 5px;
+    background-color: red;
+    margin: 7px;
+
+
+}
+
+.on{
+    padding: 5px;
+    background-color: red;
+    margin: 7px;
+
+
+}
+
 .parent{
     padding: 30px;
     background-color: blue;
